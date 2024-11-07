@@ -6,9 +6,10 @@ namespace Tyuiu.NefedovIS.Sprint4.Task3.V25.Lib
         public int Calculate(int[,] array)
         {
             int p = 1;
-            for (int i = 0; i < array.Length / 5; i++)
+            for (int i = 0; i < (array.Length / 5); i++)
             {
-                p *= array[3, i];
+                p *= array[i, 3];
+                Console.WriteLine(array[i, 3]);
             }
             return p;
         }
