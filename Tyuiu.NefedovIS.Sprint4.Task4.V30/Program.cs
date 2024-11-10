@@ -20,7 +20,6 @@ namespace Tyuiu.NefedovIS.Sprint4.Task4.V30
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine("nigger");
         }
     }
 }
